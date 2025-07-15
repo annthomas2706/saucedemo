@@ -32,9 +32,10 @@ public class ProductsPage extends TestBase{
     
 
  // action
-    public void  getMostExpensiveItemAndAddToCart() {
+    public String  getMostExpensiveItemAndAddToCart() {
         double highestPrice = 0.0;
         int maxIndex = -1;
+        String maxItemName="";
 
         for (int i = 0; i < prices.size(); i++) {
             String priceText = prices.get(i).getText().replace("$", "").trim();
@@ -42,14 +43,15 @@ public class ProductsPage extends TestBase{
 
             if (price > highestPrice) {
             	highestPrice = price;
+            	maxItemName=itemNames.get(i).getText();
             	 maxIndex = i;
             	
              }
          }
-
+        	System.out.println(maxItemName);
              addToCartButtons.get(maxIndex).click();
          
-                
+            return maxItemName;    
         }
 
     }
