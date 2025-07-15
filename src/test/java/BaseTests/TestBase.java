@@ -2,14 +2,12 @@ package BaseTests;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Properties;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -32,7 +30,7 @@ public class TestBase {
 		} 
 	}
 
-	public static void initialization() throws InterruptedException{
+	public void initialization() throws InterruptedException{
 			ChromeOptions options = new ChromeOptions();
 			options.setAcceptInsecureCerts(true);
 			options.setExperimentalOption("prefs", new HashMap<String, Object>() {{
