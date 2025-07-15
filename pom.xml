@@ -8,8 +8,6 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <name>saucedamo</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,7 +18,7 @@
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>7.10.1</version> <!-- Or latest available -->
+        <version>7.10.1</version> 
         <scope>test</scope>
     </dependency>
    
@@ -35,6 +33,16 @@
         <artifactId>webdrivermanager</artifactId>
         <version>5.8.0</version>
     </dependency>
+    
+    
+    <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version> 
+</dependency>
+
+    
+  
     
   
 
