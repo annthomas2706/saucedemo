@@ -7,7 +7,8 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Properties;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
+	public Logger logger;
 	
 	
 	public TestBase(){
@@ -31,6 +33,8 @@ public class TestBase {
 	}
 
 	public void initialization() throws InterruptedException{
+		
+		logger=LogManager.getLogger(this.getClass());//load log42j.xml and logs for current testclass
 			ChromeOptions options = new ChromeOptions();
 			options.setAcceptInsecureCerts(true);
 			options.setExperimentalOption("prefs", new HashMap<String, Object>() {{

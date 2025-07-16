@@ -1,0 +1,4 @@
+2025-07-16 12:18:00 INFO  Tests.TestClass - Verifying Home Page Title
+2025-07-16 12:18:00 INFO  Tests.TestClass - Logging to the page with valid credentials
+2025-07-16 12:18:01 INFO  Tests.TestClass - Most expensive item is adding to the cart 
+2025-07-16 12:18:02 INFO  Tests.TestClass - Going to cart and verifying the cartItem
