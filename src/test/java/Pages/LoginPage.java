@@ -29,8 +29,8 @@ public class LoginPage extends TestBase{
 			return driver.getTitle();
 		}
 		public void login(String un, String pwd){
-			username.sendKeys("standard_user");
-			password.sendKeys("secret_sauce");
+			username.sendKeys(un);
+			password.sendKeys(pwd);
 			login.click();
 		}
 		

@@ -1,12 +1,4 @@
-2025-07-16 12:18:00 INFO  Tests.TestClass - Verifying Home Page Title
-2025-07-16 12:18:00 INFO  Tests.TestClass - Logging to the page with valid credentials
-2025-07-16 12:18:01 INFO  Tests.TestClass - Most expensive item is adding to the cart 
-2025-07-16 12:18:02 INFO  Tests.TestClass - Going to cart and verifying the cartItem
-2025-07-16 14:00:42 INFO  Tests.TestClass - Verifying Home Page Title
-2025-07-16 14:00:42 INFO  Tests.TestClass - Logging to the page with valid credentials
-2025-07-16 14:00:43 INFO  Tests.TestClass - Most expensive item is adding to the cart 
-2025-07-16 14:00:44 INFO  Tests.TestClass - Going to cart and verifying the cartItem
-2025-07-16 14:05:58 INFO  Tests.TestClass - Verifying Home Page Title
-2025-07-16 14:05:58 INFO  Tests.TestClass - Logging to the page with valid credentials
-2025-07-16 14:06:00 INFO  Tests.TestClass - Most expensive item is adding to the cart 
-2025-07-16 14:06:01 INFO  Tests.TestClass - Going to cart and verifying the cartItem
+2025-07-25 16:43:21 INFO  Tests.TestClass - Verifying Home Page Title
+2025-07-25 16:43:21 INFO  Tests.TestClass - Logging to the page with valid credentials
+2025-07-25 16:43:22 INFO  Tests.TestClass - Most expensive item is adding to the cart 
+2025-07-25 16:43:23 INFO  Tests.TestClass - Going to cart and verifying the cartItem
